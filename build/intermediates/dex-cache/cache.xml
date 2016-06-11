@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_e8daf06c5fc644c527667cb7bac1cb0ea74f49b7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="57406d2a5d3aa49346e46d14f4e327052dddf65d">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b7fc90e0c9224749f52139816a3a713b922fe1d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_71776b1c26402fb79913d7f9d912924e08f1ef7b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="198f86964d1fe34215742672a4e095f916f0f4d9">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0-alpha1_5e9fa3b7344dfb5af79f5a8cb857a9df81a47da3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_bedc5b9bd939c1b0a8a087dc6e69c507e79d0cfa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b6318fea0202c191420d750aa3bd5b661dc227a0">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_02d2204336e2948617c382025a08b3f0cc10c40b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_f85eff4653b312bc5eb1905ba1a9568f21f3220d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.0.2_a996f3db0dc12b4808d55735834010163fecd57f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_51478b7636785b3202d307e2e821c55722438abb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_5ed33b802f700c9069ddd5094d0e44d199fff462/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_f0f5f65a74f0fe438cec110b33babc10518f1f53/classes.dex" />
+    </item>
+    <item
+        jar="/Users/archied/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/archied/AndroidStudioProjects/AndroidWearWatch/wearable/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_8bece5c55b9af99093fe604d4044f06e341d1af2/classes.dex" />
+    </item>
+
+</items>
