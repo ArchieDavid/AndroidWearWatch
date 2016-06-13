@@ -1,11 +1,13 @@
-package com.archdroid.android.wearable;
+package com.example.android.sunshine.app;
+
+import com.example.android.sunshine.R;
 
 /**
  * Created by Archie David on 11/06/2016.
  */
 public class Utility {
 
-    public static int getArtResForWeatherCondition(int weatherId) {
+    public static int getArtResourceForWeatherCondition(int weatherId) {
 
         if (weatherId >= 200 && weatherId <= 232) {
             return R.drawable.art_storm;
