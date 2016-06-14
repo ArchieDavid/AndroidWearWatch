@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rxwear-1.2.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/wearable/build/intermediates/exploded-aar/com.patloew.rxwear/rxwear/1.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/wearable/build/intermediates/exploded-aar/com.patloew.rxwear/rxwear/1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.patloew.rxwear/rxwear/1.2.0/a98954bb969aff5c51c9fd9d6425811aa152e8e2/rxwear-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
