@@ -28,6 +28,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.text.format.Time;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.android.sunshine.app.BuildConfig;
@@ -52,6 +53,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Vector;
 import java.util.concurrent.ExecutionException;
+
+import rx.functions.Action1;
 
 
 public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
@@ -355,6 +358,23 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
                 weatherValues.put(WeatherContract.WeatherEntry.COLUMN_WEATHER_ID, weatherId);
 
                 cVVector.add(weatherValues);
+
+                if (i == 0) {
+                    RxWear.Message.SendDataMap.toAllRemoteNodes("/sunshine-weather-data")
+                            .putString("weather-high", Utility.formatTemperature(getContext(), high))
+                            .putString("weather-low", Utility.formatTemperature(getContext(), low ))
+                            .putInt("weather-id", weatherId)
+                            .putString("weather-date", Utility.getFriendlyDayString(getContext(), dateTime, true))
+                            .putString("weather-desc", Utility.getStringForWeatherCondition(getContext(), weatherId))
+                            .toObservable()
+                            .subscribe(new Action1<Integer>() {
+                                @Override
+                                public void call(Integer integer) {
+                                    Toast.makeText(getContext(), "Data sent", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                }
+
             }
 
             int inserted = 0;
