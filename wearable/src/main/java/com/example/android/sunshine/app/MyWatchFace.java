@@ -32,6 +32,7 @@ import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
 import android.text.format.Time;
 import android.view.SurfaceHolder;
+import android.view.View;
 
 import com.example.android.sunshine.R;
 import com.google.android.gms.wearable.DataMap;
@@ -97,6 +98,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
         private  String mDate;
         private String mWeatherDescription;
         int mWeather_id;
+        private View mLayout;
 
         final BroadcastReceiver mTimeZoneReceiver = new BroadcastReceiver() {
             @Override
@@ -116,6 +118,9 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onCreate(SurfaceHolder holder) {
             super.onCreate(holder);
+            //LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+           // mLayout = inflater.inflate(R.layout.watchface_main, null);
+
 
             setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFace.this)
                     .setCardPeekMode(WatchFaceStyle.PEEK_MODE_SHORT)
