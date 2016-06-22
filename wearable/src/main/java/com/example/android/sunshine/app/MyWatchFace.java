@@ -34,10 +34,15 @@ import android.text.format.Time;
 import android.view.SurfaceHolder;
 
 import com.example.android.sunshine.R;
+import com.google.android.gms.wearable.DataMap;
+import com.patloew.rxwear.RxWear;
+import com.patloew.rxwear.transformers.MessageEventGetDataMap;
 
 import java.lang.ref.WeakReference;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
+
+import rx.functions.Action1;
 
 /**
  * Analog watch face with a ticking second hand. In ambient mode, the second hand isn't shown. On
@@ -87,6 +92,12 @@ public class MyWatchFace extends CanvasWatchFaceService {
         Paint mHandPaint;
         boolean mAmbient;
         Time mTime;
+        private String mHighTemp;
+        private String mLowTemp;
+        private  String mDate;
+        private String mWeatherDescription;
+        int mWeather_id;
+
         final BroadcastReceiver mTimeZoneReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -125,6 +136,19 @@ public class MyWatchFace extends CanvasWatchFaceService {
             mHandPaint.setStrokeCap(Paint.Cap.ROUND);
 
             mTime = new Time();
+
+            RxWear.Message.listen()
+                    .compose(MessageEventGetDataMap.filterByPath("/sunshine-weather-data"))
+                    .subscribe(new Action1<DataMap>() {
+                        @Override
+                        public void call(DataMap dataMap) {
+                            mHighTemp = dataMap.getString("weather-high");
+                            mLowTemp = dataMap.getString("weather-low");
+                            mDate = dataMap.getString("weather-date");
+                            mWeather_id = dataMap.getInt("weather-id");
+                            mWeatherDescription = dataMap.getString("weather-desc");
+                        }
+                    });
         }
 
         @Override
