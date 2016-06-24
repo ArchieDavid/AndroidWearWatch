@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0096e99c-6764-4cd0-9f10-abe3a53bcedb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wearable/src/main/res/layout/watchface_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/MyWatchFace.java" afterPath="$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/MyWatchFace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wearable/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/wearable/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wearable/src/main/res/layout/watchface_main.xml" afterPath="$PROJECT_DIR$/wearable/src/main/res/layout/watchface_main.xml" />
     </list>
     <ignored path="AndroidWearWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,13 +42,13 @@
       <file leaf-file-name="MyWatchFace.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/MyWatchFace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.346247">
+            <state vertical-scroll-proportion="-6.009685">
               <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#4953#5003#0" expanded="true" />
                 <element signature="e#5296#5838#0" expanded="true" />
                 <element signature="e#5837#5838#0" expanded="true" />
-                <marker date="1466632922000" expanded="true" signature="671:1582" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -95,6 +93,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/Utility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="fragment_detail_wide.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail_wide.xml">
           <provider editor-type-id="android-designer">
@@ -114,9 +122,15 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5625">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding />
+            <state vertical-scroll-proportion="-1.1625">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+              <folding>
+                <element signature="e#1084#1104#0" expanded="true" />
+                <element signature="e#1459#1479#0" expanded="true" />
+                <element signature="e#1791#1816#0" expanded="true" />
+                <element signature="e#2114#2139#0" expanded="true" />
+                <element signature="e#2448#2473#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,16 +150,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="308" column="60" selection-start-line="308" selection-start-column="60" selection-end-line="308" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="watch_face.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wearable/src/main/res/xml/watch_face.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2760,12 +2764,13 @@
         <option value="$PROJECT_DIR$/wearable/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/wearable/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/MyWatchFace.java" />
+        <option value="$PROJECT_DIR$/wearable/src/main/res/layout/watchface_main.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="y" value="23" />
+    <option name="x" value="1491" />
+    <option name="y" value="128" />
     <option name="width" value="1213" />
     <option name="height" value="773" />
   </component>
@@ -3567,7 +3572,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="23" width="1213" height="773" extended-state="0" />
+    <frame x="1491" y="128" width="1213" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3664,10 +3669,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#4953#5003#0" expanded="true" />
             <element signature="e#5296#5838#0" expanded="true" />
             <element signature="e#5837#5838#0" expanded="true" />
-            <marker date="1466632922000" expanded="true" signature="671:1582" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -3922,14 +3927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4030,26 +4027,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wearable/src/main/res/layout/watchface_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5625">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="-1.1625">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="e#1084#1104#0" expanded="true" />
+            <element signature="e#1459#1479#0" expanded="true" />
+            <element signature="e#1791#1816#0" expanded="true" />
+            <element signature="e#2114#2139#0" expanded="true" />
+            <element signature="e#2448#2473#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wearable/src/main/java/com/example/android/sunshine/app/MyWatchFace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.346247">
+        <state vertical-scroll-proportion="-6.009685">
           <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#4953#5003#0" expanded="true" />
             <element signature="e#5296#5838#0" expanded="true" />
             <element signature="e#5837#5838#0" expanded="true" />
-            <marker date="1466632922000" expanded="true" signature="671:1582" placeholder="..." />
           </folding>
         </state>
       </provider>

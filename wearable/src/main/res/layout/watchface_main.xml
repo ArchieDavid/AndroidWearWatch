@@ -21,7 +21,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/persistent"
+                android:id="@+id/time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
@@ -29,7 +29,7 @@
                 style="@style/TextAppearance.Wearable.Medium"/>
 
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -38,7 +38,23 @@
                 style="@style/TextAppearance.Wearable.Small"/>
 
             <TextView
-                android:id="@+id/message"
+                android:id="@+id/high_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/no_message_info"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/low_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/no_message_info"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/weather_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
